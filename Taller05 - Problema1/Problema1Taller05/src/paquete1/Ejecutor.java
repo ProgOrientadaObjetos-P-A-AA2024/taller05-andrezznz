@@ -32,11 +32,11 @@ public class Ejecutor {
                 System.out.print(" Ingrese La Calificacion Numero 2:    ");
                 nota2 = leer.nextDouble();
 
-                LibretaNotas calificacion = new LibretaNotas(name, nota1, nota2);
+                LibretaNotas estudiante = new LibretaNotas(name, nota1, nota2);
 
-                calificacion.calcularPromedio();
+                estudiante.calcularPromedio();
 
-                System.out.printf("%s\n", calificacion);
+                System.out.printf("%s\n", estudiante);
 
             } else {
                 if (opcion == 2) {
@@ -50,12 +50,12 @@ public class Ejecutor {
                     System.out.print(" Ingrese la Calificacion Numero 3:    ");
                     nota3 = leer.nextInt();
 
-                    LibretaNotas calificacion = new LibretaNotas(name, nota1,
+                    LibretaNotas estudiante = new LibretaNotas(name, nota1,
                             nota2, nota3);
 
-                    calificacion.calcularPromedio();
+                    estudiante.calcularPromedio();
 
-                    System.out.printf("%s\n", calificacion);
+                    System.out.printf("%s\n", estudiante);
 
                 } else {
                     if (opcion == 3) {
